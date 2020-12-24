@@ -52,6 +52,8 @@ export const videoPlayerInit = () => {
         const currentTime = videoPlayer.currentTime;
         const duration = videoPlayer.duration;
 
+
+
         videoProgress.value = (currentTime / duration) * 100;
 
         let minutePassed = Math.floor(currentTime / 60);
